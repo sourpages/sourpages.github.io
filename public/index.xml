@@ -21,12 +21,5 @@
       <guid>http://localhost:1313/posts/growing-older/</guid>
       <description>Gradually losing our sense of wonder.</description>
     </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 02 Aug 2026 22:03:02 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

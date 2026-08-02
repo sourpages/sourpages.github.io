@@ -1,5 +1,4 @@
 # Sourpages
-- [About](http://localhost:1313/about/)
 
 ## Posts
 - [What we are forgetting as we grow older](http://localhost:1313/posts/growing-older/)
