@@ -4,11 +4,6 @@
     <title>Tags on Sourpages</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Sourpages</description>
-    <image>
-      <title>Sourpages</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
-    </image>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Sourpages</copyright>

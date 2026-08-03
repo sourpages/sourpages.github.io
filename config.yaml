@@ -18,6 +18,10 @@ minify:
   disableXML: true
   # minifyOutput: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 pagination:
   disableAliases: false
   pagerSize: 3
@@ -57,6 +61,7 @@ outputs:
     - llms
 
 params:
+  
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   author: Sourav Bhattacharya
   # author: ["Me", "You"] # multiple authors
@@ -75,12 +80,11 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/papermod-cover.png"]
 
   profileMode:
     enabled: false
     title: Sourpages
-    imageUrl: "#"
+    imageUrl: "/images/pfp.jpg"
     imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
@@ -97,8 +101,8 @@ params:
 
   socialIcons:
     - name: Medium
-      title: Find me on Medium
-      url: "https://medium.com/@souravbhattacharya_92021"
+      title: Follow me on Medium
+      url: "https://sourpages.medium.com/"
 
 
 
@@ -119,6 +123,10 @@ params:
 
   assets:
     disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"  
   #     favicon: "<link / abs url>"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
